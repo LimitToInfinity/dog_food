@@ -14,6 +14,10 @@ class DogFood
         amount * conversion_rate
     end
 
+    def quantity_to_amount
+        quantity / conversion_rate
+    end
+
     binding.pry
 
 end
